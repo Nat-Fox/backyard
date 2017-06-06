@@ -10,21 +10,15 @@ body {
 
 /* Estilos para la navbar */
 
+section {
+    display: flex;
+    flex-direction: row;
+}
+
 .flex-container {
     display: flex;
     background-color: white;
     margin-bottom: 20px;
-}
-
-
-/*Para el principal siempre y cuando sea clase flex container*/
-
-#principal.flex-container {
-    flex-direction: column;
-    align-items: center;
-    padding: 40px;
-    color: whitesmoke;
-    align-items: center;
 }
 
 #navbar.flex-container {
@@ -54,11 +48,8 @@ body {
 
 /* Estilos para el contenido */
 
-.info {
+section {
     background-color: #7a7474;
-    color: white;
-    display: flex;
-    flex-direction: row;
 }
 
 .title-info {
@@ -71,20 +62,22 @@ body {
 }
 
 .text-content {
+    background-color: #7a7474;
+    color: white;
     margin-left: 150px;
-    margin-right: 100px;
     width: 50%;
 }
 
 .form-content {
     background-color: #4a4646;
     color: white;
-    width: 50%;
+    width: 39%;
     margin-top: 20px;
     margin-left: 50px;
     margin-right: 150px;
     border-radius: 5px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .title-form {
@@ -92,17 +85,18 @@ body {
 }
 
 input {
-    margin-left: 80px;
+    margin-left: 20px;
     height: 30px;
     margin-bottom: 10px;
-    width: 70%;
+    width: 75%;
     font-size: 15px;
 }
 
 button {
-    margin-left: 80px;
+    margin-left: 20px;
     height: 60px;
-    width: 71%;
+    width: 77%;
+    margin-bottom: 20px;
     background-color: #d45050;
     color: white;
     font-size: 15px;

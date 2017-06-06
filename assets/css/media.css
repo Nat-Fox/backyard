@@ -1,0 +1,16 @@
+/* cambio de navbar */
+
+@media (min-width: 535px) and (max-width: 824px) {
+    footer {
+        background-color: gray
+    }
+}
+
+
+/* Cambio de row a column */
+
+@media (min-width: 200px) and (max-width: 534px) {
+    .section-container {
+        flex-direction: column;
+    }
+}
